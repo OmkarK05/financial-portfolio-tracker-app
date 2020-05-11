@@ -136,13 +136,13 @@ class App extends React.Component {
             onClick={this.handleCloseModal}
           ></FaTimesCircle>
           <div className="AddStockForm">
-            <h2 className="formHead">{`Add ${this.state.stockSymbol} to my stocks`}</h2>
+            <h2 className="formHead">{`Add ${this.state.stockName} to my stocks`}</h2>
 
             <section className="formContainer">
               <div className="formEle">
                 <h5>Company Name</h5>
                 <span style={{ position: "relative", right: "0px" }}>
-                  {this.state.stockSymbol}
+                  {this.state.stockName}
                 </span>
               </div>
               <div className="formEle">
