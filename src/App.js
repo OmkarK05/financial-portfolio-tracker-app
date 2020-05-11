@@ -181,7 +181,7 @@ class App extends React.Component {
               </div>
               <div className=" btn">
                 <button className="AddButton" onClick={this.handleModal}>
-                  Add Stock
+                  Add
                 </button>
                 <FetchApi
                   apiQuery={this.state.stockSymbol}
